@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Scratch / local only
+tmp/
+scratch/
+*.local.md
+*.draft.md
+
+# Secrets（防呆，本 repo 不該有但以防萬一）
+.env
+.env.*
+*.key
+*.pem
+credentials.json
